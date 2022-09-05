@@ -5,8 +5,58 @@
 	
 }
 body{
-	background: #A9A9A9;
+	background: black;
+	display: flex;
 }
-#encabezado{
-	background: blue;
+
+header{
+	border: 3px white solid;
+	background: gray;	
+	border-radius: 20px;
+	margin-left: 100px;
+	width: 320px;
+	height: 250px;
+	align-items: center;
+	text-align-last: center;
+	margin-bottom: 30px;
+}
+.foto{
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+header h1{
+	color: whitesmoke;
+}
+#artizquierdo{
+	color: whitesmoke;
+	border: 3px white solid;
+	background: gray;	
+	border-radius: 20px;
+	margin-left: 100px;
+	width: 320px;
+	height: 300px;
+	text-align-last: center;
+}
+aside{
+	display: flex;
+}
+aside div{
+	color: whitesmoke;
+	border: 3px white solid;
+	background: gray;	
+	border-radius: 20px;
+	margin-left: 100px;
+	width: 700px;
+	height: 580px;
+	text-align: center;
+}
+
+.sub{
+	border: 3px white solid;
+	border-spacing: inherit;
+	border-radius: 20px;
+	padding: 10px;
+}
+#links{	
+	margin-top: 25px;
 }
