@@ -5,21 +5,21 @@
 	
 }
 body{
-	padding: 50px;
+	padding: 20px;
 	background: #202020;
 	display: flex;
 }
 
 header{
-	border: 3px white solid;
-	background: gray;	
+	border: 3px #00FA9A solid;
+	background: black;	
 	border-radius: 20px;
 	margin-left: 100px;
-	width: 320px;
+	width: 350px;
 	height: 250px;
 	align-items: center;
 	text-align-last: center;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 }
 .foto{
 	margin-bottom: 15px;
@@ -29,36 +29,61 @@ header h1{
 	color: whitesmoke;
 }
 #artizquierdo{
-	color: whitesmoke;
-	border: 3px white solid;
-	background: gray;	
+	border: 3px #00FA9A solid;
+	background: black;	
 	border-radius: 20px;
 	margin-left: 100px;
-	width: 320px;
-	height: 300px;
-	text-align-last: center;
+	width: 350px;
+	height: 400px;
+	display: grid;
+  	grid-template-columns: 1fr;
+  	gap: 16px;
 }
 aside{
 	display: flex;
 }
 aside div{
-	color: whitesmoke;
-	border: 3px white solid;
-	background: gray;	
+	color: black;
+	border: 3px #00FA9A solid;
+	background: black;	
 	border-radius: 20px;
-	margin-left: 100px;
-	width: 700px;
-	height: 580px;
-	text-align: center;
+	margin-left: 40px;
+	width: 900px;
+	height: 660px;
 	padding: 30px;
-}
-
-.sub{
-	border: 3px white solid;
-	border-spacing: inherit;
-	border-radius: 20px;
-	padding: 10px;
+	font-size: 20px;
 }
 #links{	
-	margin-top: 25px;
+	padding: 25px;
+	text-align: center;
+
+}
+.icon{
+	display: flex;
+}
+.contacto{
+	min-width: 100%;
+  	display: flex;
+  	align-items: center;
+  	gap: 16px;
+  	margin-left: 40px;
+  	margin-top: 30px;
+}
+.text{ 
+	color: gray;
+	padding-top: 5px;
+ }
+.sub{
+ 	color: #00FA9A;
+  	text-transform: uppercase;
+  	margin-bottom: 2px;
+}
+.icon2{
+	padding: 25px;
+}
+.subt{
+	color: white;
+}
+.p{
+	color:	#F5FFFA;
 }
