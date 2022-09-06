@@ -5,7 +5,8 @@
 	
 }
 body{
-	background: black;
+	padding: 50px;
+	background: #202020;
 	display: flex;
 }
 
@@ -49,6 +50,7 @@ aside div{
 	width: 700px;
 	height: 580px;
 	text-align: center;
+	padding: 30px;
 }
 
 .sub{
