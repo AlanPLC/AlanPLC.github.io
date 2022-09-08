@@ -6,27 +6,38 @@
 }
 body{
 	background-color: #000000;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23355735' fill-opacity='1' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-	padding: 30px;
-	animation: fanimado 200s infinite;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23355735' fill-opacity='1' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	padding-left: 50px;
+	padding-top: 25px;
+	animation: fanimado 250s infinite;
 	display: flex;
 	position: relative;
 }
-
-header{
-	border: 3px #00FA9A solid;
-	background: black;
+hr{
+	width: 200px;
+	height: 8px;
+	color: gray;
+	border: 3px black solid;
 	border-radius: 20px;
-	margin-left: 100px;
+	background: #00FA9A;
+	margin-top: 15px;
+	margin-left: 75px;
+}
+#cuadroizq{
+	border: 3px #00FA9A solid;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 20px;
+}
+header{
 	width: 350px;
-	height: 250px;
+	height: 270px;
 	align-items: center;
 	text-align-last: center;
 	margin-bottom: 10px;
 }
 @keyframes fanimado{
 	0%{
-		background-position: 0% 50%;
+		background-position: 0% 100%;
 	}
 	50%{
 		background-position: 100% 50%;
@@ -43,10 +54,6 @@ header h1{
 	color: whitesmoke;
 }
 #artizquierdo{
-	border: 3px #00FA9A solid;
-	background: black;	
-	border-radius: 20px;
-	margin-left: 100px;
 	width: 350px;
 	height: 400px;
 	display: grid;
@@ -59,11 +66,11 @@ aside{
 aside div{
 	color: black;
 	border: 3px #00FA9A solid;
-	background: black;	
+	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 20px;
 	margin-left: 40px;
-	width: 900px;
-	height: 660px;
+	width: 650px;
+	height: 700px;
 	padding: 30px;
 	font-size: 20px;
 }
@@ -96,12 +103,15 @@ aside div{
 	padding: 25px;
 }
 .subt{
-	color: white;
+	color: #00FA9A;
 }
 .p{
-	color:	#F5FFFA;
+	color:	gray;
+	padding-top: 10px;
 }
 .foto{
 	border: 3px #00FA9A solid;
 	border-radius: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
