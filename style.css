@@ -37,7 +37,7 @@ header{
 }
 @keyframes fanimado{
 	0%{
-		background-position: 0% 100%;
+		background-position: 0% 50%;
 	}
 	50%{
 		background-position: 100% 50%;
@@ -143,7 +143,7 @@ aside{
 	background: #00FA9A;
 	margin-top: 10px;
 	margin-left: 38px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .imgs{
 	margin: 20px;
