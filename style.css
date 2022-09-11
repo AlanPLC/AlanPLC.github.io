@@ -24,7 +24,7 @@ body{
 	margin-left: 50px;
 }
 #cuadroizq{
-	border: 3px #00FA9A solid;
+	border: 1px #00FA9A solid;
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 20px;
 }
@@ -67,7 +67,7 @@ aside{
 }
 #centro{
 	color: black;
-	border: 3px #00FA9A solid;
+	border: 1px #00FA9A solid;
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 20px;
 	margin-left: 40px;
@@ -121,7 +121,7 @@ aside{
 #cuadroder{
 	display: inline-block;
 	color: black;
-	border: 3px #00FA9A solid;
+	border: 1px #00FA9A solid;
 	background-color: rgba(0, 0, 0, 0.8);
 	border-radius: 20px;
 	margin-left: 40px;
@@ -173,4 +173,9 @@ aside{
 	border-radius: 20px;
 	background: #00FA9A;
 	margin-left: 215px;
+}
+#formulario{
+	border: 3px #00FA9A solid;
+	padding: 20px;
+	border-radius: 20px;
 }
